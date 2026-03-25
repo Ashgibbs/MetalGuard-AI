@@ -1,0 +1,6 @@
+/* Main styles moved to index.css for consistency */
+.status-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

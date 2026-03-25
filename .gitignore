@@ -1,0 +1,89 @@
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Datasets and large outputs
+datasets/
+datasets.zip
+Colab/
+Marble dataset/
+Marble dataset.zip
+Metal Surface defect datas/
+Metal Surface defect datas.zip
+Metal-surfaces-defects/
+NEU Datasets.zip
+Video Datasets/
+dataset_balanced_v7.zip
+industrial_dataset_for_colab.zip
+industrial_defect_dataset_balanced/
+object_detection_dataset.zip
+yolo_formatted_data/
+yolo*.pt
+test_results/
+output_videos/*
+!output_videos/.gitkeep
+defect_project/*/val/
+defect_project/*/train/
+# Exclude all models inside defect_project EXCEPT v1_defect detection_model and v7_model
+defect_project/*
+!defect_project/v1_defect detection_model/
+!defect_project/v7_model/
+
+# Ensure datasets inside the allowed models are still ignored
+defect_project/*/val/
+defect_project/*/train/
+*.mp4
+*.avi
+*.webm
+
+# Node / React Frontend
+node_modules/
+/Web Dashboard/defect-dashboard/node_modules/
+/Web Dashboard/defect-dashboard/dist/
+/Web Dashboard/defect-dashboard/.env.local
+/Web Dashboard/defect-dashboard/.env.development.local
+/Web Dashboard/defect-dashboard/.env.test.local
+/Web Dashboard/defect-dashboard/.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
